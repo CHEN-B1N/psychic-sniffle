@@ -552,98 +552,118 @@ var MENU = [
 
 var TRAIN = {
  "0": [
-  [
-   "深蹲 / 保加利亚分腿蹲",
-   "3 组 × 10–12"
-  ],
-  [
-   "臀桥（躺地上做）",
-   "3 组 × 12"
-  ],
-  [
-   "俯卧撑（可跪姿）",
-   "3 组 × 8–12"
-  ],
-  [
-   "平板支撑",
-   "3 组 × 40 秒"
-  ],
-  [
-   "弹力带划船或两瓶水划船",
-   "3 组 × 12"
-  ]
+  {
+   "n": "深蹲 / 保加利亚分腿蹲",
+   "r": "10–12",
+   "main": true
+  },
+  {
+   "n": "臀桥（躺地上做）",
+   "r": "12",
+   "main": false
+  },
+  {
+   "n": "俯卧撑（可跪姿）",
+   "r": "8–12",
+   "main": true
+  },
+  {
+   "n": "平板支撑",
+   "r": "40 秒",
+   "main": false
+  },
+  {
+   "n": "弹力带划船 / 两瓶水划船",
+   "r": "12",
+   "main": true
+  }
  ],
  "2": [
-  [
-   "深蹲",
-   "3 组 × 12"
-  ],
-  [
-   "俯卧撑（可跪姿）",
-   "3 组 × 8–12"
-  ],
-  [
-   "臀桥",
-   "3 组 × 15"
-  ],
-  [
-   "死虫式",
-   "3 组 × 12（每侧）"
-  ],
-  [
-   "靠墙静蹲",
-   "3 组 × 40 秒"
-  ]
+  {
+   "n": "深蹲",
+   "r": "12",
+   "main": true
+  },
+  {
+   "n": "俯卧撑（可跪姿）",
+   "r": "8–12",
+   "main": true
+  },
+  {
+   "n": "臀桥",
+   "r": "15",
+   "main": false
+  },
+  {
+   "n": "死虫式",
+   "r": "12（每侧）",
+   "main": false
+  },
+  {
+   "n": "靠墙静蹲",
+   "r": "40 秒",
+   "main": false
+  }
  ],
  "4": [
-  [
-   "深蹲 / 保加利亚分腿蹲",
-   "3 组 × 10–12"
-  ],
-  [
-   "臀桥（躺地上做）",
-   "3 组 × 12"
-  ],
-  [
-   "俯卧撑（可跪姿）",
-   "3 组 × 8–12"
-  ],
-  [
-   "平板支撑",
-   "3 组 × 40 秒"
-  ],
-  [
-   "弹力带划船或两瓶水划船",
-   "3 组 × 12"
-  ]
+  {
+   "n": "深蹲 / 保加利亚分腿蹲",
+   "r": "10–12",
+   "main": true
+  },
+  {
+   "n": "臀桥（躺地上做）",
+   "r": "12",
+   "main": false
+  },
+  {
+   "n": "俯卧撑（可跪姿）",
+   "r": "8–12",
+   "main": true
+  },
+  {
+   "n": "平板支撑",
+   "r": "40 秒",
+   "main": false
+  },
+  {
+   "n": "弹力带划船 / 两瓶水划船",
+   "r": "12",
+   "main": true
+  }
  ],
  "5": [
-  [
-   "深蹲",
-   "3 组 × 12"
-  ],
-  [
-   "俯卧撑（可跪姿）",
-   "3 组 × 8–12"
-  ],
-  [
-   "臀桥",
-   "3 组 × 15"
-  ],
-  [
-   "死虫式",
-   "3 组 × 12（每侧）"
-  ],
-  [
-   "靠墙静蹲",
-   "3 组 × 40 秒"
-  ]
+  {
+   "n": "深蹲",
+   "r": "12",
+   "main": true
+  },
+  {
+   "n": "俯卧撑（可跪姿）",
+   "r": "8–12",
+   "main": true
+  },
+  {
+   "n": "臀桥",
+   "r": "15",
+   "main": false
+  },
+  {
+   "n": "死虫式",
+   "r": "12（每侧）",
+   "main": false
+  },
+  {
+   "n": "靠墙静蹲",
+   "r": "40 秒",
+   "main": false
+  }
  ]
 };
 
-var REST_TIP = "今天休息，但走够 8000 步。每坐 60 分钟起来走 3–5 分钟，这部分消耗常常比健身房还多。";
+var REST_TIP = "今天休息，但走够当天的步数目标。每坐 60 分钟起来走 3–5 分钟，这部分消耗常常比健身房还多。";
 
-var TRAIN_TIP = "在家做，不需要器械。没有哑铃就用两瓶 1.5L 矿泉水代替，每组做到「还能再做 2–3 个就做不动」的程度，每 1–2 周加 2 个或用时更长。";
+var TRAIN_TIP = "在家做，不需要器械。没有哑铃就用两瓶 1.5L 矿泉水代替，每组做到「还能再做 2–3 个就做不动」的程度。";
 
 var MENU_HINT = "全部用煤气灶和锅做，没有电饭煲、空气炸锅和微波炉。用量都是生重，主食标「熟」的按熟重算。";
 
@@ -1017,6 +1037,64 @@ var SHOP = [
  ]
 ];
 
+var PHASES = [
+ {
+  "from": 1,
+  "to": 2,
+  "name": "适应期",
+  "main": 3,
+  "aux": 3,
+  "rest": 90,
+  "steps": "8000",
+  "extra": "",
+  "desc": "先把动作做标准，不追求重量。"
+ },
+ {
+  "from": 3,
+  "to": 6,
+  "name": "建设期",
+  "main": 4,
+  "aux": 3,
+  "rest": 75,
+  "steps": "9000–10000",
+  "extra": "",
+  "desc": "主项加一组，休息缩短，每次课后走 10 分钟。"
+ },
+ {
+  "from": 7,
+  "to": 10,
+  "name": "强化期",
+  "main": 4,
+  "aux": 4,
+  "rest": 60,
+  "steps": "10000–12000",
+  "extra": "每次课后加 12 分钟循环：深蹲 15、俯卧撑 10、臀桥 15、登山跑 20 秒，做 3 轮",
+  "desc": "组间压到 60 秒，每周挑 2 次课后加循环。"
+ },
+ {
+  "from": 11,
+  "to": 11,
+  "name": "巩固期",
+  "main": 4,
+  "aux": 4,
+  "rest": 60,
+  "steps": "10000",
+  "extra": "",
+  "desc": "维持上一阶段，不加量。"
+ },
+ {
+  "from": 12,
+  "to": 12,
+  "name": "减载周",
+  "main": 2,
+  "aux": 2,
+  "rest": 90,
+  "steps": "8000",
+  "extra": "",
+  "desc": "组数和步数都降下来，这一周别加量，让身体吸收前 10 周。"
+ }
+];
+
 /* ---------------- 存储 ---------------- */
 var KEY = "jianzhi_v1";
 var DB = { log: [], shop: {} };
@@ -1037,6 +1115,18 @@ function saveDB(){
 function $(s){ return document.querySelector(s); }
 function el(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; }
 function todayIdx(){ return (new Date().getDay()+6)%7; }
+
+function currentPhase(){
+  var w = Math.floor(daysBetween(START, new Date()) / 7) + 1;
+  if (w < 1) w = 1;
+  for (var i = 0; i < PHASES.length; i++){
+    if (w >= PHASES[i].from && w <= PHASES[i].to) return { w: w, p: PHASES[i] };
+  }
+  return { w: w, p: {
+    name: "维持期", main: 4, aux: 4, rest: 60, steps: "10000", extra: "",
+    desc: "12 周走完了，保持每周 4 次力量，热量回到 1900–2100 kcal。"
+  }};
+}
 function ymd(d){
   var m=("0"+(d.getMonth()+1)).slice(-2), dd=("0"+d.getDate()).slice(-2);
   return d.getFullYear()+"-"+m+"-"+dd;
@@ -1069,23 +1159,32 @@ function renderToday(){
 
   var tb = $("#todayTrain");
   tb.innerHTML = "";
+  var cp = currentPhase(), ph = cp.p;
   var h = el("h2", null, "今日训练");
-  h.appendChild(el("small", null, m.mode));
+  h.appendChild(el("small", null, "第 " + cp.w + " 周 · " + ph.name));
   tb.appendChild(h);
+
+  var meta = el("p", "hint", "组间休息 " + ph.rest + " 秒 · 今日步数目标 " + ph.steps + " 步"
+                             + (ph.desc ? " · " + ph.desc : ""));
+  meta.style.margin = "0 0 10px";
+  tb.appendChild(meta);
+
   var list = TRAIN[i];
   if(list){
     list.forEach(function(it){
+      var sets = it.main ? ph.main : ph.aux;
       var r = el("div","meal");
-      r.appendChild(el("div","when","·"));
-      var w = el("div","what"); w.appendChild(el("b",null,it[0]));
+      r.appendChild(el("div","when", sets + " 组"));
+      var w = el("div","what"); w.appendChild(el("b",null,it.n));
       r.appendChild(w);
-      var q = el("div","kcal"); q.appendChild(el("b",null,it[1]));
+      var q = el("div","kcal"); q.appendChild(el("b",null,"× " + it.r));
       r.appendChild(q);
       tb.appendChild(r);
     });
+    if(ph.extra){ tb.appendChild(el("p","hint",ph.extra)); }
     tb.appendChild(el("p","hint",TRAIN_TIP));
   }else{
-    tb.appendChild(el("p","hint",REST_TIP));
+    tb.appendChild(el("p","hint", REST_TIP.replace("当天的步数目标", " " + ph.steps + " 步")));
   }
 }
 
