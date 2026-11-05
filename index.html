@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1F6B3A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="减脂助手">
+<meta name="format-detection" content="telephone=no">
+<title>减脂助手</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+:root{
+  --green:#1F6B3A; --green-2:#2E8B57; --soft:#EAF3EC; --soft2:#F3F8F4;
+  --bg:#F4F6F4; --card:#FFFFFF; --text:#161A16; --muted:#6E756E;
+  --line:#E4E8E4; --warn:#B03A2E; --shadow:0 1px 2px rgba(16,40,24,.06), 0 6px 18px rgba(16,40,24,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --soft:#20301F; --soft2:#1B241C; --bg:#111512; --card:#1A201B;
+    --text:#ECEFEC; --muted:#9AA39B; --line:#2B332C;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.3);
+    --green:#5FBE84; --green-2:#4FA874;
+  }
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Helvetica Neue",sans-serif;
+  padding-bottom:calc(64px + env(safe-area-inset-bottom));
+  overscroll-behavior-y:contain;
+}
+header{
+  position:sticky; top:0; z-index:20;
+  padding:calc(10px + env(safe-area-inset-top)) 16px 10px;
+  background:var(--bg);
+  background:color-mix(in srgb, var(--bg) 86%, transparent);
+  -webkit-backdrop-filter:saturate(180%) blur(18px); backdrop-filter:saturate(180%) blur(18px);
+  border-bottom:1px solid var(--line);
+}
+header h1{margin:0; font-size:19px; letter-spacing:.2px; font-weight:700}
+header .sub{margin:2px 0 0; font-size:12.5px; color:var(--muted)}
+main{padding:14px 14px 20px; max-width:640px; margin:0 auto}
+.tab{display:none}
+.tab.on{display:block; animation:fade .18s ease}
+@keyframes fade{from{opacity:0; transform:translateY(4px)}to{opacity:1;transform:none}}
+
+.card{
+  background:var(--card); border-radius:16px; padding:15px 16px;
+  box-shadow:var(--shadow); margin-bottom:12px; border:1px solid var(--line);
+}
+.card h2{margin:0 0 10px; font-size:15px; font-weight:700; color:var(--green); display:flex; justify-content:space-between; align-items:center}
+.card h2 small{font-weight:500; color:var(--muted); font-size:12px}
+.hint{font-size:12.5px; color:var(--muted); line-height:1.6; margin:8px 0 0}
+
+.hero{
+  background:linear-gradient(150deg,#1F6B3A,#2E8B57); color:#fff;
+  border-radius:18px; padding:18px; margin-bottom:12px; box-shadow:0 8px 24px rgba(31,107,58,.25);
+}
+.hero .tag{display:inline-block; font-size:12px; background:rgba(255,255,255,.2); padding:3px 10px; border-radius:999px; margin-bottom:8px}
+.hero h2{margin:0; font-size:20px; font-weight:700; color:#fff}
+.hero p{margin:6px 0 0; font-size:13px; opacity:.92}
+
+.meal{display:flex; gap:12px; padding:11px 0; border-bottom:1px solid var(--line)}
+.meal:last-child{border-bottom:0; padding-bottom:2px}
+.meal .when{flex:0 0 46px; font-size:12.5px; color:var(--green); font-weight:700; padding-top:1px}
+.meal .what{flex:1; min-width:0}
+.meal .what b{display:block; font-size:14.5px; font-weight:600; margin-bottom:1px}
+.meal .what span{display:block; font-size:12.5px; color:var(--muted); line-height:1.5}
+.meal .kcal{flex:0 0 54px; text-align:right; font-size:12px; color:var(--muted); line-height:1.5}
+.meal .kcal b{display:block; color:var(--text); font-size:13px; font-weight:600}
+
+.chips{display:flex; gap:8px; overflow-x:auto; padding:2px 0 10px; margin:0 -14px; padding-left:14px; padding-right:14px; scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto; width:auto; padding:8px 14px; border-radius:999px; border:1px solid var(--line);
+  background:var(--card); color:var(--muted); font-size:13.5px; font-weight:600; touch-action:manipulation;
+  white-space:nowrap;
+}
+.chip.on{background:var(--green); border-color:var(--green); color:#fff}
+
+details{border:1px solid var(--line); border-radius:14px; background:var(--card); margin-bottom:10px; overflow:hidden}
+details summary{
+  list-style:none; padding:14px 16px; font-size:15px; font-weight:600; cursor:pointer;
+  display:flex; justify-content:space-between; align-items:center; gap:10px;
+}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"›"; color:var(--muted); font-size:20px; transform:rotate(90deg); transition:transform .2s}
+details[open] summary::after{transform:rotate(-90deg)}
+details[open] summary{border-bottom:1px solid var(--line); color:var(--green)}
+.rbody{padding:12px 16px 16px; font-size:14px; line-height:1.65}
+.rbody .lab{display:inline-block; font-size:12px; font-weight:700; color:var(--green); margin:6px 0 2px}
+.rbody ol{margin:4px 0 0; padding-left:20px}
+.rbody ol li{margin-bottom:5px}
+.rbody .foot{margin-top:10px; padding-top:10px; border-top:1px dashed var(--line); font-size:12.5px; color:var(--muted)}
+
+.row{display:flex; gap:10px}
+.field{flex:1; min-width:0}
+.field label{display:block; font-size:12px; color:var(--muted); margin-bottom:4px; font-weight:600}
+input[type=number], input[type=date], textarea{
+  width:100%; padding:11px 12px; border-radius:11px; border:1px solid var(--line);
+  background:var(--soft2); color:var(--text); font-size:16px; font-family:inherit;
+  -webkit-appearance:none; appearance:none;
+}
+textarea{font-size:13px; line-height:1.5; resize:vertical; min-height:80px; font-family:ui-monospace,Menlo,monospace}
+input:focus, textarea:focus{outline:2px solid var(--green); outline-offset:-1px}
+button{
+  font-family:inherit; font-size:15px; font-weight:600; border:0; border-radius:12px;
+  padding:13px 18px; background:var(--green); color:#fff; touch-action:manipulation;
+  transition:transform .08s, opacity .12s; cursor:pointer; width:100%;
+}
+button:active{transform:scale(.985); opacity:.9}
+button.ghost{background:transparent; color:var(--green); border:1px solid var(--line)}
+button.sm{padding:9px 14px; font-size:13.5px; width:auto}
+
+.stat{display:flex; gap:10px; margin-bottom:12px}
+.stat .box{flex:1; background:var(--card); border:1px solid var(--line); border-radius:15px; padding:13px 14px; box-shadow:var(--shadow)}
+.stat .box .k{font-size:11.5px; color:var(--muted); font-weight:600}
+.stat .box .v{font-size:24px; font-weight:700; letter-spacing:-.5px; margin-top:2px}
+.stat .box .v small{font-size:12px; font-weight:600; color:var(--muted); letter-spacing:0}
+.up{color:var(--warn)} .down{color:var(--green)}
+
+canvas{width:100%; height:auto; display:block}
+
+.shopitem{display:flex; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid var(--line)}
+.shopitem:last-child{border-bottom:0}
+.shopitem .nm{flex:1; min-width:0; font-size:14px}
+.shopitem .nm span{display:block; font-size:11.5px; color:var(--muted); margin-top:1px}
+.shopitem.done .nm{text-decoration:line-through; color:var(--muted); opacity:.65}
+.tick{
+  flex:0 0 26px; width:26px; height:26px; border-radius:50%; border:2px solid var(--line);
+  display:grid; place-items:center; color:transparent; font-size:14px; font-weight:800;
+}
+.shopitem.done .tick{background:var(--green); border-color:var(--green); color:#fff}
+.cat{font-size:12px; font-weight:700; color:var(--green); padding:14px 0 2px; letter-spacing:.5px}
+
+nav{
+  position:fixed; left:0; right:0; bottom:0; z-index:30;
+  display:flex; padding-bottom:env(safe-area-inset-bottom);
+  background:var(--bg);
+  background:color-mix(in srgb, var(--bg) 82%, transparent);
+  -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px);
+  border-top:1px solid var(--line);
+}
+nav button{
+  flex:1; background:none; color:var(--muted); border-radius:0; padding:7px 0 6px;
+  display:flex; flex-direction:column; align-items:center; gap:2px; font-size:10.5px; font-weight:600;
+}
+nav button svg{width:23px; height:23px; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+nav button.on{color:var(--green)}
+nav button:active{transform:none; opacity:.7}
+
+.banner{
+  background:#FFF4E5; color:#7A4B00; border:1px solid #F0D9B5; border-radius:12px;
+  padding:11px 13px; font-size:12.5px; margin-bottom:12px; line-height:1.55;
+}
+@media (prefers-color-scheme: dark){ .banner{background:#33270F; color:#F0C987; border-color:#4A3A18} }
+.empty{text-align:center; color:var(--muted); font-size:13px; padding:22px 0}
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="hTitle">减脂助手</h1>
+  <p class="sub" id="hSub">—</p>
+</header>
+
+<main>
+  <div id="banner" class="banner" style="display:none"></div>
+
+  <!-- 今日 -->
+  <section class="tab on" id="t-today">
+    <div class="hero">
+      <span class="tag" id="todayTag">—</span>
+      <h2 id="todayTitle">今天吃什么</h2>
+      <p id="todaySum">—</p>
+    </div>
+    <div class="card" id="todayMeals"></div>
+    <div class="card" id="todayTrain"></div>
+    <div class="card">
+      <h2>今天体重 <small>填一次就行</small></h2>
+      <div class="row">
+        <div class="field"><label>体重 (kg)</label><input type="number" id="qW" step="0.1" inputmode="decimal" placeholder="77.0"></div>
+        <div class="field"><label>腰围 (cm，可空)</label><input type="number" id="qC" step="0.1" inputmode="decimal" placeholder="—"></div>
+      </div>
+      <div style="margin-top:10px"><button id="qSave">保存今天的记录</button></div>
+    </div>
+  </section>
+
+  <!-- 菜单 -->
+  <section class="tab" id="t-menu">
+    <div class="chips" id="dayChips"></div>
+    <div class="hero" id="menuHero"></div>
+    <div class="card" id="menuMeals"></div>
+    <p class="hint" id="menuHint" style="padding:0 4px 8px"></p>
+  </section>
+
+  <!-- 菜谱 -->
+  <section class="tab" id="t-recipe">
+    <p class="hint" id="recipeHint" style="margin:0 0 12px; padding:0 4px">点开看做法。</p>
+    <div id="recipeList"></div>
+  </section>
+
+  <!-- 清单 -->
+  <section class="tab" id="t-shop">
+    <div class="card" style="display:flex; align-items:center; gap:12px">
+      <div style="flex:1">
+        <div style="font-size:14px; font-weight:700" id="shopProgress">采购进度</div>
+        <div class="hint" style="margin-top:3px" id="shopSub">买一次约两周量</div>
+      </div>
+      <button class="sm ghost" id="shopReset" style="width:auto">清空</button>
+    </div>
+    <div class="card" id="shopList" style="padding-top:6px"></div>
+    <p class="hint" style="padding:0 4px">山姆是大包装，买回来当天就按 150g 分装冷冻。商品名随门店季节会变，按品类找即可。</p>
+  </section>
+
+  <!-- 打卡 -->
+  <section class="tab" id="t-log">
+    <div class="stat">
+      <div class="box"><div class="k">最新体重</div><div class="v" id="sNow">—<small> kg</small></div></div>
+      <div class="box"><div class="k">累计变化</div><div class="v" id="sDelta">—</div></div>
+      <div class="box"><div class="k">距目标</div><div class="v" id="sLeft">—</div></div>
+    </div>
+    <div class="card">
+      <h2>体重曲线 <small>虚线 = 目标</small></h2>
+      <canvas id="chart" width="600" height="320"></canvas>
+      <p class="hint" id="chartHint">至少记录 2 次才会出曲线。每周日填一次 7 天平均值最准。</p>
+    </div>
+    <div class="card">
+      <h2>添加记录</h2>
+      <div class="field" style="margin-bottom:10px"><label>日期</label><input type="date" id="lD"></div>
+      <div class="row">
+        <div class="field"><label>体重 (kg)</label><input type="number" id="lW" step="0.1" inputmode="decimal" placeholder="76.5"></div>
+        <div class="field"><label>腰围 (cm)</label><input type="number" id="lC" step="0.1" inputmode="decimal" placeholder="可空"></div>
+      </div>
+      <div style="margin-top:10px"><button id="lSave">保存</button></div>
+    </div>
+    <div class="card">
+      <h2>历史记录 <small id="logCount"></small></h2>
+      <div id="logList"></div>
+    </div>
+    <div class="card">
+      <h2>数据备份</h2>
+      <p class="hint" style="margin-top:0">换手机或清除浏览器数据前，把下面这段复制到备忘录存好。</p>
+      <textarea id="backup" placeholder="点「导出」生成备份文本"></textarea>
+      <div class="row" style="margin-top:10px">
+        <button class="ghost" id="btnExport">导出</button>
+        <button class="ghost" id="btnImport">导入</button>
+      </div>
+    </div>
+    <p class="hint" style="text-align:center; padding-bottom:8px">数据只存在这台手机里，不上传任何服务器。</p>
+  </section>
+</main>
+
+<nav>
+  <button class="on" data-tab="today">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    今日
+  </button>
+  <button data-tab="menu">
+    <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+    菜单
+  </button>
+  <button data-tab="recipe">
+    <svg viewBox="0 0 24 24"><path d="M4 4h6.5A2.5 2.5 0 0113 6.5V20a2 2 0 00-2-2H4z"/><path d="M20 4h-6.5A2.5 2.5 0 0011 6.5V20a2 2 0 012-2h7z"/></svg>
+    菜谱
+  </button>
+  <button data-tab="shop">
+    <svg viewBox="0 0 24 24"><path d="M6 7h12l1.4 12.4a1 1 0 01-1 1.1H5.6a1 1 0 01-1-1.1z"/><path d="M9 7a3 3 0 016 0"/></svg>
+    清单
+  </button>
+  <button data-tab="log">
+    <svg viewBox="0 0 24 24"><path d="M4 18l4-6 3 3 5-8 4 5"/></svg>
+    打卡
+  </button>
+</nav>
+
+<script>
+"use strict";
+
+/* ---------------- 数据 ---------------- */
+var START = new Date(2026, 10, 5);   // 2026-11-05 起点
+var BASE_W = 77.0, BASE_C = null;
+var RATE = 0.55;                     // 每周目标下降 kg
+var TARGET_W = 70.4;
+
+var MENU = [
+ {
+  "d": "周一",
+  "mode": "训练 A（下肢）",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "燕麦牛奶碗",
+    "i": "燕麦片 40g＋牛奶 250ml，小锅煮 3 分钟；水煮蛋 2 个；蓝莓 100g",
+    "k": 436,
+    "p": 27
+   },
+   {
+    "t": "午餐",
+    "n": "香煎鸡胸配杂粮饭",
+    "i": "鸡胸肉 150g（平底锅煎）＋杂粮饭 200g（熟，蒸热）＋蒜香西兰花 200g＋橄榄油 5g",
+    "k": 506,
+    "p": 43
+   },
+   {
+    "t": "加餐",
+    "n": "希腊酸奶＋坚果",
+    "i": "无糖希腊酸奶 150g＋每日坚果 10g",
+    "k": 158,
+    "p": 15
+   },
+   {
+    "t": "晚餐",
+    "n": "番茄豆腐虾仁煲（一锅出）",
+    "i": "虾仁 150g＋北豆腐 150g＋番茄 200g＋橄榄油 5g；配蒸红薯 150g",
+    "k": 450,
+    "p": 36
+   }
+  ],
+  "total": "约 1550 kcal｜蛋白 121g"
+ },
+ {
+  "d": "周二",
+  "mode": "休息日",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "吐司煎蛋",
+    "i": "全麦吐司 2 片（干锅烘 1 分钟）＋煎蛋 2 个＋牛奶 250ml＋圣女果 100g",
+    "k": 459,
+    "p": 28
+   },
+   {
+    "t": "午餐",
+    "n": "黑椒牛肉粒炒彩椒",
+    "i": "牛里脊 120g＋彩椒 100g＋洋葱 50g＋杂粮饭 200g（熟）",
+    "k": 530,
+    "p": 32
+   },
+   {
+    "t": "加餐",
+    "n": "希腊酸奶",
+    "i": "无糖希腊酸奶 200g",
+    "k": 130,
+    "p": 17
+   },
+   {
+    "t": "晚餐",
+    "n": "番茄虾仁滑蛋",
+    "i": "虾仁 150g＋鸡蛋 1 个＋番茄 150g＋焯青菜 200g＋红薯 150g（蒸）",
+    "k": 456,
+    "p": 33
+   }
+  ],
+  "total": "约 1575 kcal｜蛋白 110g"
+ },
+ {
+  "d": "周三",
+  "mode": "训练 B（上肢）",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "隔夜酸奶燕麦杯（不开火）",
+    "i": "无糖希腊酸奶 200g＋燕麦 30g＋蓝莓 100g＋坚果 10g，前晚拌好冷藏",
+    "k": 360,
+    "p": 24
+   },
+   {
+    "t": "午餐",
+    "n": "咖喱鸡肉土豆（一锅炖）",
+    "i": "去骨鸡腿肉 150g＋土豆 150g＋胡萝卜 50g＋洋葱 50g＋咖喱块 15g＋杂粮饭 150g（熟）",
+    "k": 560,
+    "p": 33
+   },
+   {
+    "t": "加餐",
+    "n": "水煮蛋",
+    "i": "水煮蛋 2 个",
+    "k": 144,
+    "p": 13
+   },
+   {
+    "t": "晚餐",
+    "n": "豆腐虾仁蒸蛋（隔水蒸）",
+    "i": "北豆腐 150g＋虾仁 100g＋鸡蛋 1 个＋西兰花 200g",
+    "k": 489,
+    "p": 40
+   }
+  ],
+  "total": "约 1553 kcal｜蛋白 110g"
+ },
+ {
+  "d": "周四",
+  "mode": "休息日",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "燕麦牛奶三蛋",
+    "i": "燕麦 40g＋牛奶 250ml（小锅煮 3 分钟）＋水煮蛋 3 个＋蓝莓 100g",
+    "k": 508,
+    "p": 33
+   },
+   {
+    "t": "午餐",
+    "n": "番茄牛肉汤（一锅炖）",
+    "i": "牛里脊 120g＋番茄 200g＋洋葱 50g＋杂粮饭 200g（熟）",
+    "k": 483,
+    "p": 33
+   },
+   {
+    "t": "加餐",
+    "n": "希腊酸奶＋坚果",
+    "i": "无糖希腊酸奶 150g＋每日坚果 10g",
+    "k": 158,
+    "p": 15
+   },
+   {
+    "t": "晚餐",
+    "n": "清蒸鲈鱼",
+    "i": "鲈鱼 200g（整条，隔水蒸 8 分钟）＋西兰花 200g＋蒸红薯 100g",
+    "k": 430,
+    "p": 36
+   }
+  ],
+  "total": "约 1579 kcal｜蛋白 117g"
+ },
+ {
+  "d": "周五",
+  "mode": "训练 A（下肢）",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "吐司水煮蛋",
+    "i": "全麦吐司 2 片＋水煮蛋 2 个＋牛奶 250ml＋圣女果 100g",
+    "k": 399,
+    "p": 24
+   },
+   {
+    "t": "午餐",
+    "n": "鸡胸荞麦面（一锅到底）",
+    "i": "荞麦面 100g（干）＋鸡胸肉 150g（切薄片同锅煮）＋青菜 100g＋生抽醋汁",
+    "k": 585,
+    "p": 40
+   },
+   {
+    "t": "加餐",
+    "n": "希腊酸奶",
+    "i": "无糖希腊酸奶 200g",
+    "k": 130,
+    "p": 17
+   },
+   {
+    "t": "晚餐",
+    "n": "魔芋丝鸡丝凉拌",
+    "i": "魔芋丝 200g＋鸡胸 100g＋北豆腐 150g＋黄瓜半根＋低卡酱汁",
+    "k": 340,
+    "p": 37
+   },
+   {
+    "t": "睡前",
+    "n": "苹果＋坚果",
+    "i": "苹果 1 个＋坚果 10g",
+    "k": 140,
+    "p": 2
+   }
+  ],
+  "total": "约 1594 kcal｜蛋白 120g"
+ },
+ {
+  "d": "周六",
+  "mode": "训练 B｜高碳日",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "燕麦全脂奶",
+    "i": "燕麦 40g＋全脂牛奶 250ml（小锅煮 3 分钟）＋水煮蛋 2 个＋蓝莓 100g",
+    "k": 514,
+    "p": 27
+   },
+   {
+    "t": "午餐",
+    "n": "香煎牛排配蒸红薯",
+    "i": "牛里脊 / 西冷 150g（平底锅）＋蒸红薯 200g＋沙拉菜 100g＋黑椒汁",
+    "k": 473,
+    "p": 35
+   },
+   {
+    "t": "加餐",
+    "n": "蛋白粉＋香蕉",
+    "i": "蛋白粉 1 勺＋香蕉半根（训练后 30 分钟内）",
+    "k": 155,
+    "p": 22
+   },
+   {
+    "t": "晚餐",
+    "n": "弹性餐",
+    "i": "控制在 550 kcal 以内，先吃蛋白质和蔬菜，不喝含糖饮料、不喝酒",
+    "k": 550,
+    "p": 30
+   }
+  ],
+  "total": "约 1692 kcal｜蛋白 114g"
+ },
+ {
+  "d": "周日",
+  "mode": "备餐日",
+  "meals": [
+   {
+    "t": "早餐",
+    "n": "燕麦蛋白煎饼（平底锅不放油）",
+    "i": "燕麦 40g＋鸡蛋 1 个＋蛋白粉 15g＋香蕉半根",
+    "k": 330,
+    "p": 22
+   },
+   {
+    "t": "午餐",
+    "n": "清冰箱",
+    "i": "剩余蛋白质 150g＋杂粮饭 150g（熟）＋蔬菜 200g",
+    "k": 480,
+    "p": 35
+   },
+   {
+    "t": "加餐",
+    "n": "酸奶莓果杯",
+    "i": "无糖希腊酸奶 200g＋混合莓果 100g＋坚果 10g",
+    "k": 240,
+    "p": 20
+   },
+   {
+    "t": "晚餐",
+    "n": "番茄牛肉汤",
+    "i": "番茄牛肉汤 1 碗＋北豆腐 150g＋大量蔬菜，主食减半",
+    "k": 400,
+    "p": 32
+   },
+   {
+    "t": "睡前",
+    "n": "水果",
+    "i": "水果 1 份",
+    "k": 80,
+    "p": 0
+   }
+  ],
+  "total": "约 1530 kcal｜蛋白 109g"
+ }
+];
+
+var TRAIN = {
+ "0": [
+  [
+   "深蹲 / 保加利亚分腿蹲",
+   "3 组 × 10–12"
+  ],
+  [
+   "臀桥（躺地上做）",
+   "3 组 × 12"
+  ],
+  [
+   "俯卧撑（可跪姿）",
+   "3 组 × 8–12"
+  ],
+  [
+   "平板支撑",
+   "3 组 × 40 秒"
+  ],
+  [
+   "弹力带划船或两瓶水划船",
+   "3 组 × 12"
+  ]
+ ],
+ "2": [
+  [
+   "深蹲",
+   "3 组 × 12"
+  ],
+  [
+   "俯卧撑（可跪姿）",
+   "3 组 × 8–12"
+  ],
+  [
+   "臀桥",
+   "3 组 × 15"
+  ],
+  [
+   "死虫式",
+   "3 组 × 12（每侧）"
+  ],
+  [
+   "靠墙静蹲",
+   "3 组 × 40 秒"
+  ]
+ ],
+ "4": [
+  [
+   "深蹲 / 保加利亚分腿蹲",
+   "3 组 × 10–12"
+  ],
+  [
+   "臀桥（躺地上做）",
+   "3 组 × 12"
+  ],
+  [
+   "俯卧撑（可跪姿）",
+   "3 组 × 8–12"
+  ],
+  [
+   "平板支撑",
+   "3 组 × 40 秒"
+  ],
+  [
+   "弹力带划船或两瓶水划船",
+   "3 组 × 12"
+  ]
+ ],
+ "5": [
+  [
+   "深蹲",
+   "3 组 × 12"
+  ],
+  [
+   "俯卧撑（可跪姿）",
+   "3 组 × 8–12"
+  ],
+  [
+   "臀桥",
+   "3 组 × 15"
+  ],
+  [
+   "死虫式",
+   "3 组 × 12（每侧）"
+  ],
+  [
+   "靠墙静蹲",
+   "3 组 × 40 秒"
+  ]
+ ]
+};
+
+var REST_TIP = "今天休息，但走够 8000 步。每坐 60 分钟起来走 3–5 分钟，这部分消耗常常比健身房还多。";
+
+var TRAIN_TIP = "在家做，不需要器械。没有哑铃就用两瓶 1.5L 矿泉水代替，每组做到「还能再做 2–3 个就做不动」的程度，每 1–2 周加 2 个或用时更长。";
+
+var MENU_HINT = "全部用煤气灶和锅做，没有电饭煲、空气炸锅和微波炉。用量都是生重，主食标「熟」的按熟重算。";
+
+var RECIPES = [
+ {
+  "n": "1. 一锅煮杂粮饭（没有电饭煲）",
+  "m": "杂粮米（糙米＋藜麦＋燕麦米）1 杯约 150g、水 1.6 杯",
+  "s": [
+   "米洗两遍，加冷水泡 30–60 分钟。糙米不泡煮不熟，这一步不能省。",
+   "连水一起倒进厚底汤锅，大火煮开，用勺子搅一下防止粘底。",
+   "转最小火，盖严盖子煮 15–18 分钟，中途绝对不要揭盖。",
+   "关火后继续焖 10 分钟再开盖，用饭勺从锅底往上翻松。"
+  ],
+  "q": "每 200g 熟重约 227 kcal / 蛋白 4g",
+  "t": "锅底会结一层薄锅巴，正常。听到「滋滋」的干烧声说明水干了，立刻关火。一次煮 3 杯，分 3 份冷藏 3 天。没有微波炉就这样复热：放蒸屉水开蒸 8 分钟，或加一勺水小火焖 3 分钟。"
+ },
+ {
+  "n": "2. 香煎鸡胸（平底锅版）",
+  "m": "鸡胸肉 500g、橄榄油 10g、盐 3g、黑胡椒碎 2g、蒜粉 2g、生抽 10ml",
+  "s": [
+   "山姆的鸡胸很厚，横刀片成 1.5cm 厚的片，不片开会外老内生。",
+   "加全部调料抓匀，腌 20 分钟；前一晚腌好冷藏更入味。",
+   "锅烧到微微冒烟再倒油，鸡胸用厨房纸吸干表面水分后下锅。水分不吸干就煎不香。",
+   "中火每面煎 4–5 分钟，中途不要翻动。关火盖盖焖 3 分钟，取出静置 5 分钟再切。"
+  ],
+  "q": "每份 150g，约 165 kcal / 蛋白 34g",
+  "t": "切开无粉色汁水就熟了。煎完静置是嫩的关键，直接切肉汁全流走。"
+ },
+ {
+  "n": "3. 番茄豆腐虾仁煲（一锅出）",
+  "m": "虾仁 150g、北豆腐 150g、番茄 2 个（约 200g）、蒜 2 瓣、橄榄油 5g、盐、葱花",
+  "s": [
+   "豆腐切 2cm 块。锅里少油，豆腐两面各煎 1 分钟至微黄，盛出备用。煎过不易碎。",
+   "同一锅下蒜末炒香，倒番茄块炒到出沙（约 2 分钟）。",
+   "加 200ml 热水煮开，下豆腐煮 3 分钟。",
+   "最后下虾仁煮 2 分钟，加盐调味，撒葱花出锅。"
+  ],
+  "q": "约 330 kcal / 蛋白 36g",
+  "t": "全程一个锅，汤汁别倒——番茄的酸甜都在汤里，拌饭很好吃。想更饱可以加一把金针菇。"
+ },
+ {
+  "n": "4. 黑椒牛肉粒炒彩椒",
+  "m": "牛里脊 120g、彩椒 100g、洋葱 50g、生抽 10ml、淀粉 3g、黑胡椒 2g、橄榄油 5g",
+  "s": [
+   "牛肉逆纹切 2cm 见方的粒，加生抽和淀粉抓匀腌 15 分钟，淀粉锁水牛肉才嫩。",
+   "锅烧到冒烟再下油，牛肉快炒 40 秒立刻盛出。",
+   "同一锅炒彩椒洋葱 1 分钟，倒回牛肉。",
+   "撒大量现磨黑胡椒，翻两下就出锅。"
+  ],
+  "q": "约 250 kcal / 蛋白 27g",
+  "t": "认准「牛里脊」或「牛腱」。山姆的西冷、眼肉雪花多，脂肪是里脊的两倍以上，减脂期不适合常吃。"
+ },
+ {
+  "n": "5. 番茄虾仁滑蛋",
+  "m": "虾仁 150g、鸡蛋 2 个、番茄 1 个（约 150g）、盐、白胡椒、橄榄油 5g",
+  "s": [
+   "虾仁用少许盐抓洗后擦干。",
+   "番茄切块下锅炒出汁，加 50ml 水煮 2 分钟。",
+   "下虾仁煮到变红卷曲。",
+   "蛋液加 20ml 清水打散，转最小火淋入，等 20 秒再用铲子轻推。",
+   "蛋液还有一点流动时就关火，余温会把它焖熟。"
+  ],
+  "q": "约 320 kcal / 蛋白 35g",
+  "t": "蛋白质密度极高、脂肪很低，吃起来却像大餐，是这套菜谱里最值得反复做的一道。"
+ },
+ {
+  "n": "6. 豆腐虾仁蒸蛋（隔水蒸）",
+  "m": "北豆腐 150g、虾仁 100g、鸡蛋 2 个、温水 150ml、盐、香油 2 滴",
+  "s": [
+   "没有蒸锅也能做：锅里垫一个盘子或两根筷子当架子，加水到碗的一半高度，盖锅盖就是蒸锅。",
+   "豆腐切块铺在碗底。",
+   "蛋液加 1.5 倍温水、少许盐打匀，过筛后倒在豆腐上。过筛决定成品是否光滑。",
+   "碗上盖保鲜膜扎几个孔（或盖一个盘子），水开后中火蒸 10 分钟。",
+   "摆上虾仁再蒸 4 分钟，出锅淋 2 滴香油。"
+  ],
+  "q": "约 330 kcal / 蛋白 36g",
+  "t": "全程中火，火太大会起蜂窝。这道菜凉了也好吃，可以前一晚做好当第二天午餐。"
+ },
+ {
+  "n": "7. 咖喱鸡肉土豆（一锅炖）",
+  "m": "去骨鸡腿肉 150g、土豆 150g、胡萝卜 50g、洋葱 50g、咖喱块 15g、水 250ml",
+  "s": [
+   "鸡腿肉切 3cm 块。锅里少油，鸡皮朝下先煎到金黄（去皮的话就直接煎）。",
+   "下洋葱炒软，加土豆和胡萝卜翻炒 1 分钟。",
+   "加水没过食材，煮开后转小火炖 12 分钟。",
+   "关火，把咖喱块掰碎放进去搅化，再开小火煮 3 分钟收稠。"
+  ],
+  "q": "约 420 kcal / 蛋白 30g（不含饭）",
+  "t": "咖喱块热量不低（10g 约 45 kcal），一人份 15g 足够。土豆就是主食，配了土豆就把饭减到 100g。"
+ },
+ {
+  "n": "8. 白菜豆腐鸡肉丸煲（饱腹感最强）",
+  "m": "鸡胸肉糜 150g、北豆腐 100g、白菜 200g、姜 2 片、盐、白胡椒、生抽 5ml",
+  "s": [
+   "鸡胸肉糜加捏碎的豆腐、盐、白胡椒、生抽抓匀，顺一个方向搅到发黏。",
+   "白菜切段铺在锅底，加 300ml 水，放姜片煮开。",
+   "用勺子把肉馅团成丸子下锅，转小火煮 8 分钟。",
+   "加盐调味，连汤一起吃。"
+  ],
+  "q": "约 290 kcal / 蛋白 38g",
+  "t": "这一锅热量不到 300 kcal、蛋白 38g，是加班回家最省事的一餐。丸子一次可以多做一些，冷冻保存。"
+ },
+ {
+  "n": "9. 鸡胸荞麦面（一锅到底）",
+  "m": "荞麦面 100g（干）、鸡胸肉 150g、青菜 100g、生抽 10ml、醋 10ml、蒜末、辣椒油 3g",
+  "s": [
+   "鸡胸肉切成 3mm 的薄片，越薄熟得越快越嫩。",
+   "汤锅烧一大锅水，先下面条煮 4 分钟。",
+   "同一锅下鸡胸薄片，煮 2 分钟。",
+   "最后下青菜煮 30 秒，全部捞出。",
+   "加生抽、醋、蒜末、辣椒油拌匀。"
+  ],
+  "q": "约 585 kcal / 蛋白 40g",
+  "t": "一锅煮三样，只洗一个锅。面汤别喝，钠很高。"
+ },
+ {
+  "n": "10. 清蒸鲈鱼",
+  "m": "鲈鱼 1 条约 200g、姜 4 片、葱 2 根、蒸鱼豉油 10ml、橄榄油 3g",
+  "s": [
+   "鱼洗净擦干，两面各划两刀，鱼身和鱼肚里塞姜片。",
+   "锅里垫盘子或筷子架，水开后放鱼，中火蒸 8 分钟（200g 左右的鱼）。",
+   "倒掉盘里的腥水，铺上葱丝，淋蒸鱼豉油。",
+   "另起小锅把 3g 橄榄油烧热，「刺啦」浇在葱丝上。"
+  ],
+  "q": "约 210 kcal / 蛋白 36g（不含配菜）",
+  "t": "蒸鱼豉油本身很咸，10ml 就够，不用再加盐。鱼眼凸出、鱼肉一插就散就是熟了，蒸久了会柴。"
+ },
+ {
+  "n": "11. 番茄牛肉汤（一锅炖，备餐神器）",
+  "m": "牛里脊或牛腱 300g、番茄 4 个、洋葱 1 个、姜 3 片、盐、黑胡椒",
+  "s": [
+   "牛肉切块，冷水下锅焯水，撇净浮沫后捞出。",
+   "番茄切块下锅炒出沙，加洋葱炒软。",
+   "加牛肉和 1.5L 热水，小火炖 40 分钟（牛腱）或 20 分钟（里脊）。",
+   "调味后分装 4 份。"
+  ],
+  "q": "每份约 220 kcal / 蛋白 26g",
+  "t": "一次做一锅，冷藏 4 天、冷冻 1 个月。复热直接倒回锅里煮开 3 分钟，比微波炉热的更均匀。"
+ },
+ {
+  "n": "12. 蒜香西兰花（3 分钟）",
+  "m": "西兰花 200g、蒜 3 瓣、橄榄油 5g、盐",
+  "s": [
+   "掰成小朵，淡盐水泡 10 分钟。",
+   "水开滴几滴油，焯 90 秒，捞出立刻过凉水，这样才脆且保持翠绿。",
+   "蒜末用橄榄油小火煸香，倒入西兰花翻匀，加盐出锅。"
+  ],
+  "q": "约 105 kcal / 蛋白 5g",
+  "t": "赶时间就用山姆的冷冻西兰花，下锅焯 2 分钟直接吃，营养损失很小。"
+ },
+ {
+  "n": "13. 希腊酸奶莓果燕麦杯（免煮，不开火）",
+  "m": "无糖希腊酸奶 200g、燕麦片 30g、冷冻蓝莓 100g、每日坚果 10g",
+  "s": [
+   "前一晚把燕麦和酸奶拌在一起，冷藏过夜，燕麦会软化成像布丁的口感。",
+   "早上铺上莓果和坚果即可，完全不用开火。"
+  ],
+  "q": "约 340 kcal / 蛋白 21g",
+  "t": "一定选「无糖」希腊酸奶。山姆部分风味酸奶含糖超过 10g/100g，一杯下去等于喝了一罐可乐的糖。"
+ },
+ {
+  "n": "14. 魔芋丝鸡丝凉拌（低卡高饱腹）",
+  "m": "魔芋丝 200g、鸡胸 100g、北豆腐 150g、黄瓜半根、生抽 10ml、醋 10ml、蒜末、辣椒油 3g",
+  "s": [
+   "魔芋丝开水焯 2 分钟去腥，过凉水沥干。",
+   "鸡胸整块冷水下锅，水开后煮 10 分钟，捞出撕成丝。",
+   "所有材料加调料拌匀，冷藏 20 分钟更入味。"
+  ],
+  "q": "约 340 kcal / 蛋白 37g",
+  "t": "魔芋丝几乎零热量、膳食纤维高。晚上特别饿的时候先用它垫底，再吃正常份量的晚餐。"
+ },
+ {
+  "n": "15. 燕麦蛋白煎饼（平底锅，不放油）",
+  "m": "燕麦片 40g、鸡蛋 1 个、蛋白粉 15g、香蕉半根、水 50ml",
+  "s": [
+   "燕麦用料理机打成粉，或用即食燕麦直接压碎。",
+   "所有材料搅成能缓慢流动的糊。",
+   "不粘锅小火，不放油，两面各煎 2 分钟。"
+  ],
+  "q": "约 330 kcal / 蛋白 22g",
+  "t": "加肉桂粉或可可粉换口味。这个配方比外面卖的松饼少一半热量、多一倍蛋白。"
+ }
+];
+
+var SHOP = [
+ [
+  "蛋白质",
+  "鸡胸肉（大包装 2–2.5kg）",
+  "用 1.2kg / 2 周",
+  "片好腌好，按 150g 分装冷冻"
+ ],
+ [
+  "蛋白质",
+  "去骨鸡腿肉",
+  "500g / 2 周",
+  "按 150g 分装冷冻"
+ ],
+ [
+  "蛋白质",
+  "冷冻虾仁",
+  "300g / 2 周",
+  "冷冻保存，用多少取多少"
+ ],
+ [
+  "蛋白质",
+  "牛里脊 / 牛腱",
+  "500g / 2 周",
+  "按 120g 分装冷冻"
+ ],
+ [
+  "蛋白质",
+  "鲈鱼（冰鲜或冷冻整条）",
+  "1 条 / 周",
+  "当天吃，或冷冻"
+ ],
+ [
+  "蛋白质",
+  "鸡蛋（30 枚装）",
+  "20 个 / 2 周",
+  "冷藏，放最里层"
+ ],
+ [
+  "蛋白质",
+  "北豆腐",
+  "3 盒 / 周",
+  "冷藏，3 天内吃完"
+ ],
+ [
+  "乳制品",
+  "无糖希腊式酸奶（大桶）",
+  "1kg / 周",
+  "冷藏，开封 5 天内"
+ ],
+ [
+  "乳制品",
+  "脱脂或全脂牛奶（1L×6）",
+  "2L / 周",
+  "冷藏"
+ ],
+ [
+  "主食",
+  "燕麦片（大袋）",
+  "500g / 2 周",
+  "密封防潮"
+ ],
+ [
+  "主食",
+  "杂粮米 / 糙米＋藜麦",
+  "500g / 2 周",
+  "密封防虫"
+ ],
+ [
+  "主食",
+  "全麦吐司",
+  "1 袋 / 周",
+  "冷冻保存，吃时干锅烘一下"
+ ],
+ [
+  "主食",
+  "红薯 / 紫薯",
+  "1.5kg / 2 周",
+  "阴凉通风，不要冷藏"
+ ],
+ [
+  "主食",
+  "荞麦面",
+  "1 包 / 月",
+  "干燥保存"
+ ],
+ [
+  "主食",
+  "咖喱块",
+  "1 盒 / 2 月",
+  "干燥保存"
+ ],
+ [
+  "蔬菜",
+  "西兰花（或冷冻西兰花）",
+  "1kg / 周",
+  "冷藏保鲜袋，5 天内"
+ ],
+ [
+  "蔬菜",
+  "混合沙拉菜",
+  "1 袋 / 周",
+  "冷藏，3 天内"
+ ],
+ [
+  "蔬菜",
+  "圣女果",
+  "500g / 周",
+  "常温或冷藏"
+ ],
+ [
+  "蔬菜",
+  "彩椒、洋葱、番茄",
+  "各 3–4 个 / 周",
+  "常温阴凉"
+ ],
+ [
+  "蔬菜",
+  "土豆、胡萝卜",
+  "各 1kg / 2 周",
+  "阴凉避光，不要冷藏"
+ ],
+ [
+  "蔬菜",
+  "大白菜",
+  "1 棵 / 周",
+  "冷藏，切开的要包好"
+ ],
+ [
+  "蔬菜",
+  "金针菇 / 蟹味菇",
+  "2 包 / 周",
+  "冷藏，别密封"
+ ],
+ [
+  "蔬菜",
+  "魔芋丝",
+  "2 包 / 周",
+  "常温，开封后冷藏泡水"
+ ],
+ [
+  "水果",
+  "冷冻蓝莓 / 混合莓果",
+  "500g / 2 周",
+  "冷冻，直接吃或做酸奶杯"
+ ],
+ [
+  "水果",
+  "苹果 / 香蕉",
+  "一周量",
+  "常温"
+ ],
+ [
+  "其他",
+  "每日坚果（小包装）",
+  "1 盒 / 月",
+  "常温，每天只吃 1 小包"
+ ],
+ [
+  "其他",
+  "特级初榨橄榄油",
+  "1 瓶 / 2 月",
+  "避光常温"
+ ],
+ [
+  "其他",
+  "无糖气泡水 / 黑咖啡",
+  "按需",
+  "替代含糖饮料"
+ ],
+ [
+  "厨具",
+  "厚底汤锅 + 不粘炒锅",
+  "各 1 口",
+  "煮饭、炖菜用汤锅；煎炒用炒锅"
+ ],
+ [
+  "厨具",
+  "蒸屉或金属蒸架",
+  "1 个（可选）",
+  "没有就用盘子或两根筷子垫在锅底"
+ ],
+ [
+  "调料",
+  "黑胡椒碎、蒜粉、辣椒粉、蒸鱼豉油、生抽、醋、柠檬",
+  "按需",
+  "常备"
+ ]
+];
+
+/* ---------------- 存储 ---------------- */
+var KEY = "jianzhi_v1";
+var DB = { log: [], shop: {} };
+var storageOK = true;
+
+function loadDB(){
+  try{
+    var raw = localStorage.getItem(KEY);
+    if(raw){ var o = JSON.parse(raw); if(o && o.log) DB = o; if(!DB.shop) DB.shop = {}; }
+  }catch(e){ storageOK = false; }
+}
+function saveDB(){
+  try{ localStorage.setItem(KEY, JSON.stringify(DB)); return true; }
+  catch(e){ storageOK = false; return false; }
+}
+
+/* ---------------- 工具 ---------------- */
+function $(s){ return document.querySelector(s); }
+function el(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; }
+function todayIdx(){ return (new Date().getDay()+6)%7; }
+function ymd(d){
+  var m=("0"+(d.getMonth()+1)).slice(-2), dd=("0"+d.getDate()).slice(-2);
+  return d.getFullYear()+"-"+m+"-"+dd;
+}
+function parseYmd(s){ var a=s.split("-"); return new Date(+a[0], +a[1]-1, +a[2]); }
+function daysBetween(a,b){ return Math.round((b-a)/86400000); }
+
+/* ---------------- 今日 ---------------- */
+function renderToday(){
+  var i = todayIdx(), m = MENU[i];
+  $("#todayTag").textContent = m.mode;
+  $("#todayTitle").textContent = m.d + " · 今天吃什么";
+  $("#todaySum").textContent = m.total;
+
+  var box = $("#todayMeals");
+  box.innerHTML = "";
+  m.meals.forEach(function(x){
+    var row = el("div","meal");
+    var w = el("div","when",x.t);
+    var what = el("div","what");
+    what.appendChild(el("b",null,x.n));
+    what.appendChild(el("span",null,x.i));
+    var k = el("div","kcal");
+    var kb = el("b",null,x.k+" kcal");
+    k.appendChild(kb);
+    k.appendChild(el("div",null,"蛋白 "+x.p+"g"));
+    row.appendChild(w); row.appendChild(what); row.appendChild(k);
+    box.appendChild(row);
+  });
+
+  var tb = $("#todayTrain");
+  tb.innerHTML = "";
+  var h = el("h2", null, "今日训练");
+  h.appendChild(el("small", null, m.mode));
+  tb.appendChild(h);
+  var list = TRAIN[i];
+  if(list){
+    list.forEach(function(it){
+      var r = el("div","meal");
+      r.appendChild(el("div","when","·"));
+      var w = el("div","what"); w.appendChild(el("b",null,it[0]));
+      r.appendChild(w);
+      var q = el("div","kcal"); q.appendChild(el("b",null,it[1]));
+      r.appendChild(q);
+      tb.appendChild(r);
+    });
+    tb.appendChild(el("p","hint",TRAIN_TIP));
+  }else{
+    tb.appendChild(el("p","hint",REST_TIP));
+  }
+}
+
+/* ---------------- 菜单 ---------------- */
+var menuDay = todayIdx();
+function renderChips(){
+  var box = $("#dayChips"); box.innerHTML = "";
+  MENU.forEach(function(m, idx){
+    var c = el("button","chip"+(idx===menuDay?" on":""), m.d);
+    c.onclick = function(){ menuDay = idx; renderChips(); renderMenu(); };
+    box.appendChild(c);
+  });
+}
+function renderMenu(){
+  var m = MENU[menuDay];
+  $("#menuHint").textContent = MENU_HINT + " 训练日（一/三/五/六）可以多吃半碗饭。";
+  var hero = $("#menuHero");
+  hero.innerHTML = "";
+  var t = el("span","tag",m.mode); hero.appendChild(t);
+  hero.appendChild(el("h2",null,m.d+"菜单"));
+  hero.appendChild(el("p",null,m.total));
+
+  var box = $("#menuMeals"); box.innerHTML = "";
+  m.meals.forEach(function(x){
+    var row = el("div","meal");
+    row.appendChild(el("div","when",x.t));
+    var what = el("div","what");
+    what.appendChild(el("b",null,x.n));
+    what.appendChild(el("span",null,x.i));
+    row.appendChild(what);
+    var k = el("div","kcal");
+    k.appendChild(el("b",null,x.k+" kcal"));
+    k.appendChild(el("div",null,"蛋白 "+x.p+"g"));
+    row.appendChild(k);
+    box.appendChild(row);
+  });
+}
+
+/* ---------------- 菜谱 ---------------- */
+function renderRecipes(){
+  $("#recipeHint").textContent = "点开看做法。" + RECIPES.length + " 道菜，全部只用煤气灶和锅，覆盖你一周所有主菜。";
+  var box = $("#recipeList"); box.innerHTML = "";
+  RECIPES.forEach(function(r){
+    var d = document.createElement("details");
+    var s = document.createElement("summary");
+    s.appendChild(el("span",null,r.n));
+    d.appendChild(s);
+    var body = el("div","rbody");
+    body.appendChild(el("span","lab","材料"));
+    body.appendChild(el("div",null,r.m));
+    body.appendChild(el("span","lab","做法"));
+    var ol = document.createElement("ol");
+    r.s.forEach(function(step){ ol.appendChild(el("li",null,step)); });
+    body.appendChild(ol);
+    var foot = el("div","foot");
+    foot.appendChild(el("div",null,"份量："+r.q));
+    foot.appendChild(el("div",null,"关键点："+r.t));
+    body.appendChild(foot);
+    d.appendChild(body);
+    box.appendChild(d);
+  });
+}
+
+/* ---------------- 清单 ---------------- */
+function renderShop(){
+  var box = $("#shopList"); box.innerHTML = "";
+  var lastCat = null, done = 0, total = 0;
+  SHOP.forEach(function(it, idx){
+    if(it[0] !== lastCat){
+      box.appendChild(el("div","cat",it[0]));
+      lastCat = it[0];
+    }
+    total++;
+    var on = !!DB.shop[idx];
+    if(on) done++;
+    var row = el("div","shopitem"+(on?" done":""));
+    var tk = el("div","tick","✓");
+    var nm = el("div","nm",it[1]);
+    nm.appendChild(el("span",null,it[2]+" · "+it[3]));
+    row.appendChild(tk); row.appendChild(nm);
+    row.onclick = function(){
+      DB.shop[idx] = !on; saveDB(); renderShop();
+    };
+    box.appendChild(row);
+  });
+  $("#shopProgress").textContent = "已买 " + done + " / " + total;
+  $("#shopSub").textContent = done === 0 ? "买一次约两周量，单周成本 200–300 元" :
+    (done >= total ? "全齐了，按 150g 分装冷冻吧" : "还剩 " + (total-done) + " 项");
+}
+
+/* ---------------- 打卡 ---------------- */
+function getLog(){ return DB.log.slice().sort(function(a,b){ return a.d < b.d ? -1 : 1; }); }
+
+function latest(){
+  var l = getLog();
+  for(var i=l.length-1;i>=0;i--){ if(typeof l[i].w === "number") return l[i]; }
+  return null;
+}
+function firstW(){ return BASE_W; }
+
+function renderStats(){
+  var l = getLog(), last = latest();
+  var now = last ? last.w : BASE_W;
+  var delta = now - BASE_W;
+  $("#sNow").innerHTML = (last ? now.toFixed(1) : "—") + "<small> kg</small>";
+  var de = $("#sDelta");
+  de.textContent = (delta===0 ? "0.0" : (delta>0?"+":"") + delta.toFixed(1));
+  de.className = "v " + (delta<0 ? "down" : (delta>0 ? "up":""));
+  var left = now - TARGET_W;
+  $("#sLeft").innerHTML = left <= 0 ? "达成" : left.toFixed(1) + "<small> kg</small>";
+  $("#sLeft").className = "v " + (left<=0 ? "down" : "");
+}
+
+function renderChart(){
+  var c = $("#chart"), ctx = c.getContext("2d");
+  var W = c.width, H = c.height;
+  ctx.clearRect(0,0,W,H);
+  var l = getLog().filter(function(x){ return typeof x.w === "number"; });
+  if(l.length < 2){
+    c.style.display = "none";
+    $("#chartHint").style.display = "block";
+    return;
+  }
+  c.style.display = "block";
+  $("#chartHint").style.display = "none";
+
+  var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var ink = dark ? "#9AA39B" : "#6E756E";
+  var grid = dark ? "rgba(255,255,255,.08)" : "rgba(0,0,0,.07)";
+  var line = dark ? "#5FBE84" : "#2E8B57";
+  var tgt  = dark ? "rgba(95,190,132,.45)" : "rgba(46,139,87,.35)";
+
+  var padL = 44, padR = 26, padT = 14, padB = 30;
+  var maxWeeks = 12;
+  var weeks = l.map(function(x){ return daysBetween(START, parseYmd(x.d))/7; });
+  var wMax = Math.max(maxWeeks, Math.ceil(Math.max.apply(null, weeks)));
+  var vals = l.map(function(x){ return x.w; });
+  var lo = Math.min.apply(null, vals.concat([TARGET_W])) - 1;
+  var hi = Math.max.apply(null, vals.concat([BASE_W])) + 1;
+
+  function X(wk){ return padL + (W-padL-padR) * (wk / wMax); }
+  function Y(v){ return padT + (H-padT-padB) * (1 - (v-lo)/(hi-lo)); }
+
+  ctx.strokeStyle = grid; ctx.lineWidth = 1;
+  for(var i=0;i<=4;i++){
+    var v = lo + (hi-lo)*i/4, y = Y(v);
+    ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(W-padR, y); ctx.stroke();
+    ctx.fillStyle = ink; ctx.font = "18px -apple-system,sans-serif"; ctx.textAlign = "right";
+    ctx.fillText(v.toFixed(0), padL-8, y+6);
+  }
+  ctx.textAlign = "center";
+  for(var wk=3; wk<=wMax; wk+=3){
+    ctx.fillStyle = ink;
+    ctx.fillText(wk + "周", X(wk), H-8);
+  }
+
+  // 目标线
+  ctx.setLineDash([7,7]); ctx.strokeStyle = tgt; ctx.lineWidth = 2.5;
+  ctx.beginPath(); ctx.moveTo(X(0), Y(BASE_W)); ctx.lineTo(X(maxWeeks), Y(TARGET_W)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // 实际线
+  ctx.strokeStyle = line; ctx.lineWidth = 3.5; ctx.lineJoin = "round";
+  ctx.beginPath();
+  l.forEach(function(x, i){
+    var px = X(daysBetween(START, parseYmd(x.d))/7), py = Y(x.w);
+    if(i===0) ctx.moveTo(px,py); else ctx.lineTo(px,py);
+  });
+  ctx.stroke();
+
+  l.forEach(function(x){
+    var px = X(daysBetween(START, parseYmd(x.d))/7), py = Y(x.w);
+    ctx.beginPath(); ctx.arc(px, py, 5.5, 0, Math.PI*2);
+    ctx.fillStyle = line; ctx.fill();
+    ctx.strokeStyle = dark ? "#1A201B" : "#fff"; ctx.lineWidth = 2.5; ctx.stroke();
+  });
+}
+
+function renderLogList(){
+  var box = $("#logList"); box.innerHTML = "";
+  var l = getLog().reverse();
+  $("#logCount").textContent = l.length ? l.length + " 条" : "";
+  if(!l.length){ box.appendChild(el("div","empty","还没有记录，先填一次今天的体重。")); return; }
+  l.slice(0,10).forEach(function(x){
+    var row = el("div","meal");
+    row.appendChild(el("div","when", x.d.slice(5)));
+    var what = el("div","what");
+    what.appendChild(el("b",null,(typeof x.w==="number"? x.w.toFixed(1)+" kg" : "—")));
+    if(typeof x.c==="number") what.appendChild(el("span",null,"腰围 "+x.c.toFixed(1)+" cm"));
+    row.appendChild(what);
+    var k = el("div","kcal");
+    var del = el("button","sm ghost","删除");
+    del.style.cssText = "width:auto;padding:5px 10px;font-size:12px;color:var(--muted);border-color:var(--line)";
+    del.onclick = function(){
+      DB.log = DB.log.filter(function(y){ return y.d !== x.d; });
+      saveDB(); renderAll();
+    };
+    k.appendChild(del);
+    row.appendChild(k);
+    box.appendChild(row);
+  });
+}
+
+function upsert(dateStr, w, c){
+  var found = false;
+  DB.log.forEach(function(x){
+    if(x.d === dateStr){
+      if(typeof w === "number") x.w = w;
+      if(typeof c === "number") x.c = c;
+      found = true;
+    }
+  });
+  if(!found){
+    DB.log.push({ d: dateStr,
+      w: (typeof w==="number"? w : null),
+      c: (typeof c==="number"? c : null) });
+  }
+  return saveDB();
+}
+
+/* ---------------- 交互 ---------------- */
+function num(id){
+  var v = $(id).value.trim();
+  if(v === "") return null;
+  var n = parseFloat(v);
+  return isNaN(n) ? null : n;
+}
+function flash(msg){
+  var b = $("#banner");
+  b.textContent = msg; b.style.display = "block";
+  setTimeout(function(){ b.style.display = "none"; }, 2600);
+}
+
+function showTab(name){
+  document.querySelectorAll("nav button").forEach(function(x){
+    x.classList.toggle("on", x.dataset.tab === name);
+  });
+  document.querySelectorAll(".tab").forEach(function(x){
+    x.classList.toggle("on", x.id === "t-" + name);
+  });
+  window.scrollTo(0, 0);
+}
+
+function renderAll(){
+  renderToday(); renderChips(); renderMenu(); renderRecipes(); renderShop();
+  renderStats(); renderChart(); renderLogList();
+}
+
+function init(){
+  loadDB();
+  if(!storageOK){
+    var b = $("#banner");
+    b.textContent = "当前方式打开无法保存数据（浏览器限制本地文件存储）。打卡记录会丢失，建议用局域网地址打开，或只在阅读时使用。";
+    b.style.display = "block";
+  }
+
+  var now = new Date();
+  $("#hSub").textContent = (now.getMonth()+1) + " 月 " + now.getDate() + " 日 · " +
+    MENU[todayIdx()].d + " · " + MENU[todayIdx()].mode;
+  $("#lD").value = ymd(now);
+
+  var last = latest();
+  if(last){
+    $("#lW").value = last.w.toFixed(1);
+    if(typeof last.c === "number") $("#lC").value = last.c.toFixed(1);
+    if(last.d === ymd(now)){ $("#qW").value = last.w.toFixed(1); }
+  }
+  $("#hTitle").textContent = "减脂助手";
+
+  document.querySelectorAll("nav button").forEach(function(btn){
+    btn.onclick = function(){
+      var name = btn.dataset.tab;
+      showTab(name);
+      try { history.replaceState(null, "", name === "today" ? location.pathname : "#" + name); } catch(e){}
+    };
+  });
+  var h = (location.hash || "").replace("#", "");
+  if(h && document.getElementById("t-" + h)) showTab(h);
+
+  $("#qSave").onclick = function(){
+    var w = num("#qW"), c = num("#qC");
+    if(w === null && c === null){ flash("先填一个体重"); return; }
+    if(upsert(ymd(new Date()), w, c)){
+      $("#qW").value = ""; $("#qC").value = "";
+      renderAll(); flash("已保存到打卡记录");
+    } else flash("保存失败：" + (storageOK ? "未知原因" : "浏览器不允许本地存储"));
+  };
+
+  $("#lSave").onclick = function(){
+    var d = $("#lD").value, w = num("#lW"), c = num("#lC");
+    if(!d){ flash("选一个日期"); return; }
+    if(w === null && c === null){ flash("至少填体重或腰围"); return; }
+    if(upsert(d, w, c)){ renderAll(); flash("已保存 " + d); }
+    else flash("保存失败：浏览器不允许本地存储");
+  };
+
+  $("#shopReset").onclick = function(){
+    DB.shop = {}; saveDB(); renderShop(); flash("已清空勾选");
+  };
+
+  $("#btnExport").onclick = function(){
+    $("#backup").value = JSON.stringify(DB);
+    $("#backup").select();
+    flash("已生成，长按全选复制");
+  };
+  $("#btnImport").onclick = function(){
+    var t = $("#backup").value.trim();
+    if(!t){ flash("先粘贴备份文本"); return; }
+    try{
+      var o = JSON.parse(t);
+      if(!o || !o.log) throw new Error("格式不对");
+      DB = { log:o.log, shop:o.shop || {} };
+      saveDB(); renderAll(); flash("已导入 " + DB.log.length + " 条记录");
+    }catch(e){ flash("导入失败：备份文本不完整"); }
+  };
+
+  renderAll();
+}
+
+init();
+</script>
+<script>
+/* 离线缓存：装到主屏幕后断网也能打开
+   更新策略是「网络优先」——有网时永远拿最新版，没网时用缓存 */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function(){
+    navigator.serviceWorker.register("sw.js").catch(function(){});
+  });
+}
+</script>
+</body>
+</html>
